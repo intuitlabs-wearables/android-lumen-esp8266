@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_id": "lumenesp8266",
+    "project_number": "340654041067",
+    "name": "LumenESP8266"
+  },
+  "client": [
+    {
+      "client_info": {
+        "client_id": "android:com.intuitlabs.android.lumenesp8266",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.intuitlabs.android.lumenesp8266"
+        }
+      },
+      "oauth_client": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ]
+}

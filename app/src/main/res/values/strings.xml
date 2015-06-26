@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LumenESP8266</string>
+    <string name="preference_key_insync">in_sync</string>
+    <string name="preference_key_topics">esp_topics</string>
+    <string name="preference_key_demo">demo</string>
+
+    <!-- Preferences -->
+    <string-array name="topic_names">
+        <item>absence of light</item>
+        <item>natural lighting</item>
+        <item>artificial lighting</item>
+        <item>small fluctuation</item>
+        <item>medium fluctuation</item>
+        <item>large fluctuation</item>
+    </string-array>
+    <string-array name="topic_values">
+        <item>dark</item>
+        <item>natural</item>
+        <item>artificial</item>
+        <item>d1</item>
+        <item>d2</item>
+        <item>d3</item>
+    </string-array>
+</resources>

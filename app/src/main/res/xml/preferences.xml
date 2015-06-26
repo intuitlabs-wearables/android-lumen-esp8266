@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Lumen Preferences">
+    <PreferenceCategory
+        android:summary="Select from lighting conditions"
+        android:title="Notifications from ESP8266">
+        <MultiSelectListPreference
+            android:dialogTitle="Events"
+            android:entries="@array/topic_names"
+            android:entryValues="@array/topic_values"
+            android:key="@string/preference_key_topics"
+            android:summary=""
+            android:title="Select from lighting conditions" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary=""
+        android:title="Simulate Push">
+        <Preference
+            android:key="@string/preference_key_demo"
+            android:summary="Create a Notification"
+            android:title="Demo" />
+    </PreferenceCategory>
+</PreferenceScreen>
